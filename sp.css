@@ -730,6 +730,11 @@ span {
     .footer{
         width: 110vw;
     }
+    .btn-box .btn{
+        position: relative;
+        bottom: -20rem;
+        
+    }
     .btn-box .btns {
         position: relative;
         left: -7rem;
@@ -770,8 +775,10 @@ span {
         left: -2rem;
         bottom: -2rem;
     }
-    .home-content span{
-        
+    .home-sci {
+        position: absolute;
+        bottom: 28rem;
+        left: 30rem;
     }
 }
 @media (max-width:330px) {
@@ -784,5 +791,10 @@ span {
         position: relative;
         left: 0rem;
         bottom: -2rem;
+    }
+    .home-sci {
+        position: absolute;
+        bottom: 23rem;
+        left: 16rem;
     }
 }
